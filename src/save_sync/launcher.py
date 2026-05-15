@@ -3,12 +3,12 @@
 import sys
 from typing import Optional
 
-from .config import Config, load_config, save_config
-from .lock_manager import LockManager
-from .logger import logger
-from .minio_client import MinIOClient
-from .process_manager import ProcessManager
-from .save_manager import SaveManager
+from save_sync.config import Config, load_config, save_config
+from save_sync.lock_manager import LockManager
+from save_sync.logger import logger
+from save_sync.minio_client import MinIOClient
+from save_sync.process_manager import ProcessManager
+from save_sync.save_manager import SaveManager
 
 
 class Launcher:

@@ -8,9 +8,9 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
 from typing import Optional
 
-from .config import Config, load_config, save_config
-from .launcher import Launcher
-from .logger import logger
+from save_sync.config import Config, load_config, save_config
+from save_sync.launcher import Launcher
+from save_sync.logger import logger
 
 
 class LogHandler:

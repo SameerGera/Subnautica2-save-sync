@@ -7,7 +7,7 @@ from typing import Optional
 
 import psutil
 
-from .logger import logger
+from save_sync.logger import logger
 
 
 class ProcessManager:

@@ -8,7 +8,7 @@ import boto3
 from botocore.config import Config
 from botocore.exceptions import ClientError
 
-from .logger import logger
+from save_sync.logger import logger
 
 
 class MinIOClient:

@@ -2,11 +2,11 @@
 
 
 a = Analysis(
-    ['build.spec.py'],
+    ['src\\save_sync\\gui.py'],
     pathex=[],
     binaries=[],
-    datas=[],
-    hiddenimports=[],
+    datas=[('config', 'config')],
+    hiddenimports=['boto3', 'botocore', 's3transfer', 'psutil', 'pydantic', 'structlog'],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],

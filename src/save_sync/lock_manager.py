@@ -4,9 +4,9 @@ import json
 import time
 from typing import Optional
 
-from .constants import LOCK_FILE
-from .logger import logger
-from .minio_client import MinIOClient
+from save_sync.constants import LOCK_FILE
+from save_sync.logger import logger
+from save_sync.minio_client import MinIOClient
 
 
 class LockManager:

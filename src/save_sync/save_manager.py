@@ -10,9 +10,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
-from .constants import METADATA_FILE, SAVE_PATTERN
-from .logger import logger
-from .minio_client import MinIOClient
+from save_sync.constants import METADATA_FILE, SAVE_PATTERN
+from save_sync.logger import logger
+from save_sync.minio_client import MinIOClient
 
 
 class SaveMetadata:
