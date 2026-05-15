@@ -1,6 +1,26 @@
-[2m2026-05-15T21:13:53.445273Z[0m [[32m[1minfo     [0m] [1minitializing                  [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mplayer_id[0m=[35mplayer1[0m
-[2m2026-05-15T21:14:15.461704Z[0m [[31m[1merror    [0m] [1minitialization_failed         [0m [[0m[1m[34msave_sync.launcher[0m][0m [36merror[0m=[35m'Could not connect to the endpoint URL: "http://20.198.120.138:9000/subnautica2-saves"'[0m
-[2m2026-05-15T21:14:27.799294Z[0m [[32m[1minfo     [0m] [1minitializing                  [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mplayer_id[0m=[35mplayer1[0m
-[2m2026-05-15T21:14:53.207471Z[0m [[31m[1merror    [0m] [1minitialization_failed         [0m [[0m[1m[34msave_sync.launcher[0m][0m [36merror[0m=[35m'Could not connect to the endpoint URL: "http://20.198.120.138:9001/subnautica2-saves"'[0m
-[2m2026-05-15T21:15:28.936734Z[0m [[32m[1minfo     [0m] [1minitializing                  [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mplayer_id[0m=[35mplayer1[0m
-[2m2026-05-15T21:15:59.716123Z[0m [[31m[1merror    [0m] [1minitialization_failed         [0m [[0m[1m[34msave_sync.launcher[0m][0m [36merror[0m=[35m'Could not connect to the endpoint URL: "http://20.198.120.138:9001/subnautica2-saves"'[0m
+[2m2026-05-15T21:26:48.318269Z[0m [[32m[1minfo     [0m] [1minitializing                  [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mplayer_id[0m=[35mplayer1[0m
+[2m2026-05-15T21:26:48.735461Z[0m [[32m[1minfo     [0m] [1minitialization_complete       [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:48.736380Z[0m [[32m[1minfo     [0m] [1msync_workflow_started         [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:48.737206Z[0m [[32m[1minfo     [0m] [1mstep_pull_from_cloud          [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:48.944326Z[0m [[32m[1minfo     [0m] [1mno_remote_metadata            [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:48.944946Z[0m [[33m[1mwarning  [0m] [1msync_from_cloud_skipped_or_failed[0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:48.946426Z[0m [[32m[1minfo     [0m] [1mstep_acquire_lock             [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:49.348405Z[0m [[32m[1minfo     [0m] [1mbytes_uploaded                [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mremote[0m=[35msession_lock.json[0m
+[2m2026-05-15T21:26:49.348913Z[0m [[32m[1minfo     [0m] [1mlock_acquired                 [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mplayer_id[0m=[35mplayer1[0m
+[2m2026-05-15T21:26:49.349873Z[0m [[32m[1minfo     [0m] [1mstep_launch_game              [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:49.350311Z[0m [[32m[1minfo     [0m] [1mlaunching_game                [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mexecutable[0m=[35mC:/Steam/steamapps/common/Subnautica2/Subnautica2/Binaries/Win64/Subnautica2-Win64-Shipping.exe[0m
+[2m2026-05-15T21:26:49.362842Z[0m [[32m[1minfo     [0m] [1mgame_started                  [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mpid[0m=[35m12956[0m
+[2m2026-05-15T21:26:49.378012Z[0m [[32m[1minfo     [0m] [1mgame_process_detected         [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:26:49.378586Z[0m [[32m[1minfo     [0m] [1mmonitoring_process            [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mpid[0m=[35m12956[0m
+[2m2026-05-15T21:27:32.400884Z[0m [[32m[1minfo     [0m] [1mprocess_exited                [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mexit_code[0m=[35m0[0m [36mpid[0m=[35m12956[0m
+[2m2026-05-15T21:27:32.401873Z[0m [[32m[1minfo     [0m] [1mgame_session_ended            [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mexit_code[0m=[35m0[0m
+[2m2026-05-15T21:27:32.408632Z[0m [[32m[1minfo     [0m] [1mstep_push_to_cloud            [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:27:32.432555Z[0m [[32m[1minfo     [0m] [1mlatest_save_found             [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mfilename[0m=[35msavegame_0.sav[0m [36mpath[0m=[35m'C:\\Users\\Sameer gera\\AppData\\Local\\Subnautica2\\Saved\\SaveGames\\savegame_0.sav'[0m
+[2m2026-05-15T21:27:32.977937Z[0m [[32m[1minfo     [0m] [1mfile_uploaded                 [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mlocal[0m=[35m'C:\\Users\\Sameer gera\\AppData\\Local\\Subnautica2\\Saved\\SaveGames\\savegame_0.sav'[0m [36mremote[0m=[35msavegame_0.sav[0m
+[2m2026-05-15T21:27:33.176602Z[0m [[32m[1minfo     [0m] [1mbytes_uploaded                [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mremote[0m=[35msave_metadata.json[0m
+[2m2026-05-15T21:27:33.177040Z[0m [[32m[1minfo     [0m] [1mmetadata_saved                [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mfilename[0m=[35msavegame_0.sav[0m
+[2m2026-05-15T21:27:33.177985Z[0m [[32m[1minfo     [0m] [1msave_uploaded                 [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mfilename[0m=[35msavegame_0.sav[0m
+[2m2026-05-15T21:27:33.178157Z[0m [[32m[1minfo     [0m] [1mstep_release_lock             [0m [[0m[1m[34msave_sync.launcher[0m][0m
+[2m2026-05-15T21:27:33.279419Z[0m [[32m[1minfo     [0m] [1mfile_deleted                  [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mremote[0m=[35msession_lock.json[0m
+[2m2026-05-15T21:27:33.279943Z[0m [[32m[1minfo     [0m] [1mlock_released                 [0m [[0m[1m[34msave_sync.launcher[0m][0m [36mplayer_id[0m=[35mplayer1[0m
+[2m2026-05-15T21:27:33.281437Z[0m [[32m[1minfo     [0m] [1msync_workflow_complete        [0m [[0m[1m[34msave_sync.launcher[0m][0m

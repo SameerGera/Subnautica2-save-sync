@@ -1,5 +1,5 @@
 {
-  "minio_endpoint": "http://20.198.120.138:9001",
+  "minio_endpoint": "http://20.198.120.138:9000",
   "minio_access_key": "Sameer",
   "minio_secret_key": "nnq21812345",
   "bucket_name": "subnautica2-saves",

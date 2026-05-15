@@ -61,11 +61,11 @@ class Launcher:
 
         logger.info("sync_workflow_started")
 
-        logger.step("pulling_from_cloud")
+        logger.info("step_pull_from_cloud")
         if not self.save_manager.sync_from_cloud(self.config.player_id):
             logger.warning("sync_from_cloud_skipped_or_failed")
 
-        logger.step("acquiring_lock")
+        logger.info("step_acquire_lock")
         if not self.lock_manager.acquire_lock(
             self.config.player_id,
             self.config.max_lock_retries
@@ -73,7 +73,7 @@ class Launcher:
             logger.error("lock_acquisition_failed")
             return False
 
-        logger.step("launching_game")
+        logger.info("step_launch_game")
         try:
             game_process = self.process_manager.launch_game()
             if not self.process_manager.wait_for_game_start():
@@ -87,11 +87,11 @@ class Launcher:
             self.lock_manager.release_lock(self.config.player_id)
             return False
 
-        logger.step("pushing_to_cloud")
+        logger.info("step_push_to_cloud")
         if not self.save_manager.sync_to_cloud(self.config.player_id):
             logger.warning("sync_to_cloud_failed")
 
-        logger.step("releasing_lock")
+        logger.info("step_release_lock")
         self.lock_manager.release_lock(self.config.player_id)
 
         logger.info("sync_workflow_complete")

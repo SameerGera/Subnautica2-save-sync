@@ -1,0 +1,29 @@
+# Secrets & Config
+config/config.json
+
+# Build output
+dist/
+build/
+Release/
+*.spec.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+save_sync.log
