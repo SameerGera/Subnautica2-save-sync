@@ -2,6 +2,7 @@
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Optional
 
@@ -31,14 +32,14 @@ class Config(BaseModel):
     @field_validator("game_executable_path")
     @classmethod
     def validate_executable(cls, v: str) -> str:
-        if not os.path.exists(v):
+        if v and not os.path.exists(v):
             raise ValueError(f"Game executable not found: {v}")
         return v
 
     @field_validator("save_directory")
     @classmethod
     def validate_save_directory(cls, v: str) -> str:
-        if not os.path.isdir(v):
+        if v and not os.path.isdir(v):
             raise ValueError(f"Save directory not found: {v}")
         return v
 
@@ -78,6 +79,3 @@ def save_config(config: Config) -> None:
     config_path.parent.mkdir(parents=True, exist_ok=True)
     with open(config_path, "w") as f:
         json.dump(config.model_dump(), f, indent=2)
-
-
-import sys
